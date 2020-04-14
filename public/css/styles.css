@@ -1,0 +1,48 @@
+ #app {
+  background-image: linear-gradient(to bottom, #4f5b31, #c2c5bc);
+  background-size: cover;
+  background-attachment: fixed; 
+  min-height: 100vh;
+}
+.navbar {
+	background-color: #4f5b31;
+}
+
+.bar_top_white {
+	width: 100%;
+	height: 6px;
+	background-color: white;
+}
+.bar_top_red {
+	background-color: #ae4126;
+	width: 100%;
+	height: 50px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+.white_body {
+	width: 100%;
+	background-color: white;
+}
+.bar_bottom_red {
+	background-color: #ae4126;
+	width: 100%;
+	height: 100px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+.dol {
+    font-family: 'Titillium Web', sans-serif;
+}
+div#copy h4 {
+	font-weight: 900;
+	font-size: 22px;
+	
+}
+div#copy p {
+	font-size: 16px;
+	font-weight: 500;
+
+}
