@@ -36,4 +36,12 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    Public function dashes() {
+        // convert the number into a number with dashes
+        $number = $this->email;
+        $formatted_number = preg_replace("/^(\d{3})(\d{2})(\d{4})$/", "$1-$2-$3", $number);
+
+        return $formatted_number;
+    }
 }

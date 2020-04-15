@@ -46,3 +46,12 @@ div#copy p {
 	font-weight: 500;
 
 }
+.red_card {
+	background-color: #ae4126;
+	color: white;
+	font-size: 18px;
+	font-weight: 900;
+	border-bottom-color: #808080;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
