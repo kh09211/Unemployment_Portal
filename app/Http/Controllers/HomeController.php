@@ -92,9 +92,12 @@ class HomeController extends Controller
     }
 
     public function is_number1() {
-        $latest = $this->get_ranks()->first()->user_id;
+        // $latest = $this->get_ranks()->first()->user_id;
 
-        return $latest;
+        $latest = $this->get_ranks()->first();
+        if (isset($latest->user_id)) {
+            return $latest->user_id;
+        }
     }
 
     public function get_ranks() {
