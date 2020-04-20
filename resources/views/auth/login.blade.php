@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mt-2">
         <div class="col-md px-0">
             <div class="">
                 <div class="bar_top_white rounded-top"></div>
@@ -15,13 +15,13 @@
                     <div id="copy">
                         <H4 class="text-center">What is Unemployment Portal?</H4>
 
-                        <p align="left">Unemployment Portal (UP) is a satirical game and not a real version of any state's covid-19 unemployment website. The way the game works is: </p>
+                        <p align="left">Unemployment Portal (UP) is a satirical game and not a real version of any state's covid-19 unemployment website.</p>
 
-                        <p align="left">Use a non-real SSN (without dashes or slashes) to begin the Unemployment Portal game.</p>
+                        <p align="left">Use a non-real SSN (without dashes or slashes) to begin using the Unemployment Portal.</p>
 
-                        <p align="left">Users must fight eachother for unemployment payment by being the latest person to make an appeal. Appeals may be submitted once per day.</p>
+                        <p align="left">Applicants must compete with eachother for unemployment payment by being the #1 in line. Appeals may be submitted once per hour to return the applicant to the top spot.</p>
 
-                        <p align="left">Users are ranked by order of latest appeal made. The player who holds the #1 spot the longest is the winner and is awarded the UI Check</p>
+                        <p align="left">If another applicant appeals, you will be moved down in rank. We strive to ensure that all applicants are given equal opportunity.</p>
 
                         <H4 class="pt-2 text-center">What is Unemployment Insurance?</H4>
 
@@ -34,11 +34,11 @@
                             employer contributions. In State, no withholdings are made from
                             workers' pay for these benefits.</p>
 
-                        <p align="left">As of July 1, 2012, the UI rate
+                    {{--    <p align="left">As of July 1, 2012, the UI rate
                             in use at the time a claim is filed determines the maximum number of
                             potential weeks of UI eligibility to be between fourteen (14) and
                             twenty (20) weeks. The UI Benefit Determination
-                            will provide the unemployment rate for your claim-filing period.</p>
+                            will provide the unemployment rate  --}}
 
                         <p align="left">The Internet claim filing system is designed to
                             enable you to file a claim for unemployment benefits. You will not be
@@ -48,11 +48,11 @@
                             <H4 class="text-center">Who can file a State claim?</H4>
                         </H4>
                         <p align="left">Individuals who worked or earned wages in the state
-                            in the past 2 years can file a State claim; and</p>
+                            in the past 2 years can file a State claim.</p>
 
-                        <p align="left">If you reside in State, you must also register for
+                  {{--      <p align="left">If you reside in State, you must also register for
                             employment services immediately upon filing your
-                            claim to avoid delay or denial of benefits; or</p>
+                            claim to avoid delay or denial of benefits; or</p> --}}
 
                         <p align="left">If you reside outside the state and have
                             earned State wages in the past two years, contact the State Workforce
@@ -66,7 +66,7 @@
 
                             <p align="left" class="ml-3">
                             
-                                <input type="checkbox" required class="mr-1 mt-2"><span class="text-danger">*</span> By checking this box, I certify that I understand that it is very, very, very, unlikely that I will recieve any payments of any kind through this app. I understand that this website is a game and not a real unemployment website.
+                                <input type="checkbox" required class="mr-1 mt-2"><span class="text-danger">*</span> By checking this box, I certify that I understand that it is very, very, very, unlikely that I will recieve any payments of any kind. I understand that this website is a game and not a real unemployment website.
                             </p>
 
                     </div>

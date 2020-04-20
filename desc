@@ -1,0 +1,8 @@
+Welcome to the Unemployment Portal. The place where we pay out to the applicant who can appeal with precision. In truth this website is just a satirical version of my own state's unemployment website. As an unemployed web developer who is stuck in coronavirus quarantine, it was only a matter of time before my own state's site crashes and server errors would inspire me to write up my own solution.
+
+Insert photo of crashe
+
+Since I didnt't want to bore the 'applicants' with monotonous questions, the scale of data is much smaller. But the site works fairly simply. Applicant arrive at the login page. If the SSN entered is known, the site routes the user to the dashboard page where information is shown and changed. If the SSN is unknown, the site redirects the user to registration. Once registered the user must fill out some information and make appeals within a particular sequence directed by the 'status' tab. Information is securely stored in the database, shown in the browser, and available for changes at any time by the user.
+
+Once appealing, the 'applicant' is now in a hunger games inspired version of king of the hill. Joking, but the applicants are trying to out-appeal eachother to stay in the #1 spot, presumably recieving the one and only hypothetical unemployment check. As other users appeal, the applicant starts moving down the rank on the appeals scoreboard. Luckly the app is timed so that the user can re-appeal once an hour has passed. And so the game continues.
+

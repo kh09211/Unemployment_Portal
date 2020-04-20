@@ -44,4 +44,25 @@ class User extends Authenticatable
 
         return $formatted_number;
     }
+
+    Public function profile() {
+        
+        return $this->hasOne(Profile::class);
+    }
+
+    // this function creates a basic title when the user is created, by firing
+    protected static function boot() {
+        parent::boot(); 
+
+        static::created(function ($user) {
+            $user->profile()->create([
+                'nickname' => null,
+                'job_title' => null,
+                'job_date' => null,
+                'work' => null,
+                'appeal' => null
+            ]);
+        });
+    }
 }
+

@@ -81,7 +81,7 @@
         <div class="row justify-content-center">
                 <div class="col-md">
 
-                    <h1 class="text-white mb-3 mt-2 text-center" style="font-size: 50px;"><span class="dol mr-1 pt-5 display-4">DOL </span>Unemployment Portal</h1>
+                    <h1 class="text-white mb-3 mt-3 text-center" style="font-size: 50px;"><span class="dol mr-1 pt-5 display-4">DOL </span>Unemployment Portal</h1>
                 </div>
             </div>
         </div>
